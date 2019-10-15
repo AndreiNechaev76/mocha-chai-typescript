@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { add } from "../src/index";
+import { add } from "../src/number";
 
 describe("add", () => {
   it("should add 2 numbers", () => {

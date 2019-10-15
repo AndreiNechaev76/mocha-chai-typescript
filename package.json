@@ -5,18 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node ./src/index.js",
-    "test": "mocha --require @babel/register"
+    "test": "mocha --require ts-node/register test/*.spec.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/node": "^7.6.3",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/register": "^7.6.2",
+    "@types/chai": "^4.2.3",
+    "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "mocha": "^6.2.1"
-  }
+    "mocha": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
 }
